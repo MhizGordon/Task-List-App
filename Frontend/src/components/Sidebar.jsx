@@ -6,6 +6,7 @@ const Sidebar = () => {
       <NavLink to="/" end className={({ isActive }) => isActive ? 'nav-item active' : 'nav-item'}>
         Home
       </NavLink>
+      <hr className="nav-divider" />
       <NavLink to="/tasks" className={({ isActive }) => isActive ? 'nav-item active' : 'nav-item'}>
         Tasks
       </NavLink>
